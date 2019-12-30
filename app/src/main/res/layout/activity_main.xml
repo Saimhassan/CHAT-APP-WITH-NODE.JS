@@ -7,7 +7,25 @@
     tools:context=".MainActivity">
 
 <EditText
+    android:hint="Enter Your Name"
+    android:textSize="16sp"
+    android:id="@+id/edt_text"
+    android:padding="10dp"
+    android:layout_margin="16dp"
+    android:background="@drawable/edt_text_design"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/enterButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edt_text"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:text="Enter Room"
+        android:textColor="@android:color/white"
+        android:background="@color/colorPrimaryDark"/>
+
 
 </RelativeLayout>
