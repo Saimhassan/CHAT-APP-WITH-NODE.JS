@@ -27,6 +27,7 @@ public class MessageAdapter extends RecyclerView.Adapter {
 
     private LayoutInflater inflater;
     private List<JSONObject> messages = new ArrayList<>();
+    private MessageAdapter messageAdapter;
 
     public MessageAdapter (LayoutInflater inflater){
         this.inflater = inflater;
